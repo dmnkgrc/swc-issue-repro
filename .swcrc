@@ -1,0 +1,22 @@
+{
+  "module": {
+    "type": "es6"
+  },
+  "minify": true,
+  "jsc": {
+    "target": "es2020",
+    "baseUrl": ".",
+    "parser": {
+      "syntax": "typescript",
+      "decorators": false,
+      "dynamicImport": false
+    },
+    "minify": {
+      "compress": {
+        "unused": true
+      },
+      "mangle": true
+    }
+  }
+}
+
